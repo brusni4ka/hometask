@@ -42,7 +42,7 @@
 <style>
 
   body {
-    background: url(/static/img/background.7b00cc9.jpg) no-repeat center center fixed;
+    background: url(./assets/background.jpg) no-repeat center center fixed;
     background-size: cover;
   }
   #app {
