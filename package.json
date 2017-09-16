@@ -9,7 +9,7 @@
     "start": "node build/dev-server.js",
     "start:server": "nodemon server",
     "build": "node build/build.js",
-    "lint": "eslint --ext .js,.vue src",
+    "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
     "axios": "^0.16.2",
