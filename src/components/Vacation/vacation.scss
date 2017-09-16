@@ -1,0 +1,76 @@
+.vacation {
+  width: 60%;
+  margin: 0 auto;
+
+  .mystatus-block {
+    margin-bottom: 30px;
+  }
+
+  .filter {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .user-list {
+    height: 280px;
+    overflow: auto;
+    margin-top: 30px;
+  }
+
+  .active {
+    background-color: #ff8383;
+  }
+
+  //List
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  ul:hover li {
+    opacity: .4;
+  }
+
+  li {
+    position: relative;
+    display: block;
+    padding: 20px 20px 20px 45px;
+    box-sizing: border-box;
+    color: #777;
+    cursor: pointer;
+    background: #fAfAfA;
+    text-decoration: none;
+    font-family: "Open Sans", "Segoe UI", Arial, sans-serif;
+  }
+
+  li, li:before {
+    transition: all .4s;
+  }
+
+  li:before {
+    content: "";
+    position: absolute;
+    left:0; bottom:0; top:0;
+    width: 20px;
+    background: #00c881;
+  }
+  li:nth-child(even):before {
+    background: #34495E;
+  }
+
+  li + li {
+    border-top: 2px solid #ededed;
+  }
+
+  ul li:hover,
+  ul li:focus {
+    opacity: 1;
+    padding-left: 55px;
+  }
+
+  ul li:hover:before,
+  ul li:focus:before {
+    width: 30px;
+  }
+}

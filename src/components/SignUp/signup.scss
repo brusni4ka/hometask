@@ -1,0 +1,14 @@
+.signup {
+  margin: 0 auto;
+  width: 40%;
+  height: 200px;
+  text-align: center;
+
+  .signup-form {
+    margin: 45px;
+    &>div{
+      display: inline-block;
+    }
+  }
+
+}
